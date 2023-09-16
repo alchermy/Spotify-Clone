@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/image/favicon.png" type="image/x-icon">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <!-- Home & Search -->
+            <div class="left-top">
+                <ul>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-house"></i><span>Home</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i><span>Search</span></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- left Bottom -->
+            <div class="left-bottom">
+                <!-- Your Library -->
+                <div class="library">
+                    <div class="library-con">
+                        <div class="library-con-left">
+                            <span><i class="fa-solid fa-book-open"></i></span>
+                            <a href=""><h4>Your Library</h4></a>
+                        </div>
+                        <div class="library-con-right">
+                            <span><i class="fa-solid fa-plus"></i></span>
+                            <span><i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Playlist & Albums -->
+                <div class="play-albums">
+                    <div class="play-albums-con">
+                        <a href="" class="filter-btn">Playlists</a>
+                        <a href="" class="filter-btn">Albums</a>
+                    </div>
+                </div>
+
+                <!-- searh-playlist -->
+                <div class="search-playlist">
+                    <div class="search-playlist-con">
+                        <div class="search-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div class="recents">
+                            <p>Recents</p>
+                            <span><i class="fa-solid fa-caret-down"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- playlist -->
+                <div class="left-playlist">
+                    <div class="left-playlist-con">
+                        <div class="playlist">
+                            <img src="/image/playlist/liked-song.jpg" alt="" class="song-cover">
+                            <div class="playlist-detail">
+                                <p class="playlist-title">Liked Songs</p>
+                                <div class="playlist-type">
+                                    <span><i class="fa-solid fa-thumbtack"></i></span>
+                                    <p>Playlist  •  17 songs</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="playlist">
+                            <img src="/image/playlist/playlist-1.jpg" alt="" class="song-cover">
+                            <div class="playlist-detail">
+                                <p class="playlist-title">Television off Radio</p>
+                                <div class="playlist-type">
+                                    <p>Playlist  •  Spotify</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="playlist">
+                            <img src="/image/playlist/playlist-2.jpg" alt="" class="song-cover">
+                            <div class="playlist-detail">
+                                <p class="playlist-title">This Is Tattoo Colour</p>
+                                <div class="playlist-type">
+                                    <p>Playlist  •  Spotify</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="playlist">
+                            <img src="/image/playlist/playlist-3.jpg" alt="" class="song-cover">
+                            <div class="playlist-detail">
+                                <p class="playlist-title">CYANTIST</p>
+                                <div class="playlist-type">
+                                    <p>Album  •  atom chanakan</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="playlist">
+                            <img src="/image/playlist/playlist-4.jpg" alt="" class="song-cover">
+                            <div class="playlist-detail">
+                                <p class="playlist-title">อินดี้ศาสตร์ Indieology</p>
+                                <div class="playlist-type">
+                                    <p>Playlist  •  Spotify</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="right">
+            <!-- playlist-header -->
+            <div class="playlist-header">
+                <!-- header top -->
+                <div class="playlist-top">
+                    <div class="playlist-arrows">
+                        <div class="arrow-con">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </div>
+                        <div class="arrow-con">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="playlist-user">
+                            <button class="btn-explore">Explore Premium</button>
+                            <button class="btn-install"><i class="fa-regular fa-circle-down"></i> <p>Install App</p></button>
+                            <button class="btn-notification"><i class="fa-regular fa-bell"></i></button>
+                            <button class="user-icon"><i class="fa-regular fa-user"></i></button>
+                    </div>
+                </div>
+
+                <!-- header info -->
+                <div class="header-info">
+                    <div class="verified">
+                        <span><i class="fa-solid fa-circle-check"></i></span>
+                        <p>Verified Artist</p>
+                    </div>
+                    <div class="header-title">
+                        <h1>FREEHAND</h1>
+                    </div>
+                    <div class="header-stat">
+                        <p>957,776 monthly listeners</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Playlist-btn -->
+            <div class="playlist-btn">
+                <div class="play-follow">
+                    <div class="play-follow-con">
+                        <a href="" class="play-btn"><i class="fa-solid fa-play"></i></a>
+                        <a href="" class="follow-btn">Following</a>
+                        <span class="option-icon"><i class="fa-solid fa-ellipsis"></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- list-song -->
+            <div class="playlist-song">
+                <div class="playlist-song-con">
+                    <h2 class="popular">Popular</h2>
+                    <table>
+                        <tr>
+                            <td class="song-num active"><p>1</p></td>
+                            <td class="song-title">
+                                <div class="song-img">
+                                    <img src="/image/song/song-1.jpg" alt="">
+                                </div>
+                                <div class="song-name active">
+                                    <a href="">ขอให้เธอใจดี</a>
+                                </div>
+                            </td>
+                            <td class="song-view">
+                                <p>4,902,600</p>
+                            </td>
+                            <td class="song-time">
+                                <p>4:55</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="song-num"><p>2</p></td>
+                            <td class="song-title">
+                                <div class="song-img">
+                                    <img src="/image/song/song-2.jpg" alt="">
+                                </div>
+                                <div class="song-name ">
+                                    <a href="">รสหวาน</a>
+                                </div>
+                            </td>
+                            <td class="song-view">
+                                <p>14,218,323</p>
+                            </td>
+                            <td class="song-time">
+                                <p>4:53</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="song-num"><p>3</p></td>
+                            <td class="song-title">
+                                <div class="song-img">
+                                    <img src="/image/song/song-3.jpg" alt="">
+                                </div>
+                                <div class="song-name">
+                                    <a href="">กลับมากอด</a>
+                                </div>
+                            </td>
+                            <td class="song-view">
+                                <p>1,684,899</p>
+                            </td>
+                            <td class="song-time">
+                                <p>4:26</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="song-num"><p>4</p></td>
+                            <td class="song-title">
+                                <div class="song-img">
+                                    <img src="/image/song/song-4.jpg" alt="">
+                                </div>
+                                <div class="song-name">
+                                    <a href="">คุก</a>
+                                </div>
+                            </td>
+                            <td class="song-view">
+                                <p>2,327,399</p>
+                            </td>
+                            <td class="song-time">
+                                <p>3:41</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="song-num"><p>5</p></td>
+                            <td class="song-title">
+                                <div class="song-img">
+                                    <img src="/image/song/song-5.jpg" alt="">
+                                </div>
+                                <div class="song-name">
+                                    <a href="">คนเดียวกัน (You?)</a>
+                                </div>
+                            </td>
+                            <td class="song-view">
+                                <p>601,263</p>
+                            </td>
+                            <td class="song-time">
+                                <p>4:01</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-player">
+        <div class="footer-player-left">
+            <img src="/image/song/song-1.jpg" alt="">
+            <div class="footer-left-name-song">
+                <a href="" class="footer-name-song">ขอให้เธอใจดี</a>
+                <a href="" class="footer-band">FREEHAND</a>
+            </div>
+            <div class="footer-left-like">
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+            </div>
+        </div>
+        <div class="footer-player-middle">
+            <div class="footer-player-middle-btn">
+                <button class="gray-btn"><i class="fa-solid fa-shuffle"></i></button>
+                <button class="gray-btn"><i class="fa-solid fa-backward-step"></i></button>
+                <button class="pause-btn"><i class="fa-solid fa-pause"></i></button>
+                <button class="gray-btn"><i class="fa-solid fa-forward-step"></i></button>
+                <button class="gray-btn"><i class="fa-solid fa-repeat"></i></button>
+            </div>
+            <div class="footer-play-middel-control">
+                <div class="player-time"><p>0:29</p></div>
+                <div class="player-control">
+                    <input type="range" min="1" max="100" value="10">
+                </div>
+                <div class="player-time">4:55</div>
+            </div>
+        </div>
+
+        <!-- footer player -->
+        <div class="footer-player-right">
+            <div class="footer-player-right-btn">
+                <button><i class="fa-regular fa-circle-play"></i></button>
+                <button><i class="fa-solid fa-music"></i></button>
+                <button><i class="fa-solid fa-list"></i></button>
+                <button><i class="fa-solid fa-computer"></i></button>
+                <button><i class="fa-solid fa-volume-high"></i></button>
+                <div class="player-volume">
+                    <input type="range" min="1" max="100" value="50">
+                </div>
+                <button><i class="fa-solid fa-up-right-and-down-left-from-center"></i></button>
+            </div>
+        </div>
+    </div>
+    
+
+<script src="https://kit.fontawesome.com/08b892acc0.js" crossorigin="anonymous"></script>
+</body>
+</html>
